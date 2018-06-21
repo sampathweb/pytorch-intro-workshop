@@ -1,0 +1,11 @@
+name: pytorch-intro-workshop
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pytorch
+  - pandas
+  - pip:
+    - pytorch-ignite
+    - sklearn
